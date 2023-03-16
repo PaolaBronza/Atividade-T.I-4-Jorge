@@ -10,17 +10,17 @@ int main(void){
 	
 	//PRODUTO
 	printf("Selecione um produto");
-	printf("\n1-Refri R$3,00\n2-Ch· R$4,00\n3-¡gua R$2,00\n4-Suco R$5,00\nDigite o cÛdigo do produto: ");
+	printf("\n1-Refri R$3,00\n2-Ch√° R$4,00\n3-√Ågua R$2,00\n4-Suco R$5,00\nDigite o c√≥digo do produto: ");
 	scanf("%c",&produto);
 	
 	if(strcmp(produto,"1")==0){
 		printf("\nProduto selecionado: Refri\nValor:R$3,00 ");
 	}
 	else if(strcmp(produto,"2")==0){
-		printf("\nProduto selecionado: Ch·\nValor:R$4,00 ");
+		printf("\nProduto selecionado: Ch√°\nValor:R$4,00 ");
 	}
 	else if(strcmp(produto,"3")==0){
-		printf("\nProduto selecionado: ¡gua\nValor:R$2,00 ");
+		printf("\nProduto selecionado: √Ågua\nValor:R$2,00 ");
 	}
 	else if(strcmp(produto,"4")==0){
 		printf("\nProduto selecionado: Suco\nValor:R$5,00 ");
