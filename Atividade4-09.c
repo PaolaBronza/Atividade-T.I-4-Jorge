@@ -7,19 +7,19 @@ int main(void){
 	setlocale(LC_ALL,"portuguese");
 	int num,num2;
 	
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	scanf("%d",&num);
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	scanf("%d",&num2);
 	
 	if(num>num2){
-		printf("%d é maior que %d",num,num2);
+		printf("%d Ã© maior que %d",num,num2);
 	}
 	else if(num<num2){
-		printf("%d é maior que %d",num2,num);
+		printf("%d Ã© maior que %d",num2,num);
 	}
 	else if(num=num2){
-		printf("os números são iguais");
+		printf("os nÃºmeros sÃ£o iguais");
 	}
 	return 0;
 }
