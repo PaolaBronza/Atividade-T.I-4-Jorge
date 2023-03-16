@@ -7,9 +7,9 @@ int main(void){
     setlocale(LC_ALL,"portuguese");
  	int um, dois, tres, quatro, cinco, seis;
  
-    printf("insira um número: ");
+    printf("insira um nÃºmero: ");
     scanf("%d", &um);
-    printf("insira outro número: ");
+    printf("insira outro nÃºmero: ");
     scanf("%d",&dois);
 
     tres = um + dois;
@@ -17,7 +17,7 @@ int main(void){
     cinco = um * dois;
     seis = um / dois;
 
-    printf("soma: %d\nsubtração: %d\nmultiplicação: %d\ndivisão: %d", tres, quatro, cinco, seis);
+    printf("soma: %d\nsubtraÃ§Ã£o: %d\nmultiplicaÃ§Ã£o: %d\ndivisÃ£o: %d", tres, quatro, cinco, seis);
 
 	return 0;
 }
