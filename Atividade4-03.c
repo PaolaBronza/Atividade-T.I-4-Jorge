@@ -15,23 +15,23 @@ printf("Digite seu nome: ");
 scanf("%s", &nome);
 printf("Digite sua idade: ");
 scanf("%d", &idade);
-printf("Digite seu gênero: ");
+printf("Digite seu gÃªnero: ");
 scanf("%s", &seggs);
 
 if(strcmp(seggs, "Masculino")==0){
-    printf("\n\nSeu nome é %s\nSua idade é %d\nE seu gênero é masculino\n\n", nome,idade);
+    printf("\n\nSeu nome Ã© %s\nSua idade Ã© %d\nE seu gÃªnero Ã© masculino\n\n", nome,idade);
 } 
 else if(strcmp(seggs, "masculino")==0){
-        printf("\n\nSeu nome é %s\nSua idade é %d\nE seu gênero é masculino\n\n", nome,idade);
+        printf("\n\nSeu nome Ã© %s\nSua idade Ã© %d\nE seu gÃªnero Ã© masculino\n\n", nome,idade);
 }
 else if(strcmp(seggs, "M")==0){
-        printf("\n\nSeu nome é %s\nSua idade é %d\nE seu gênero é masculino\n\n", nome,idade);
+        printf("\n\nSeu nome Ã© %s\nSua idade Ã© %d\nE seu gÃªnero Ã© masculino\n\n", nome,idade);
 }
 else if(strcmp(seggs, "m")==0){
-        printf("\n\nSeu nome é %s\nSua idade é %d\nE seu nênero é masculino\n\n", nome,idade);
+        printf("\n\nSeu nome Ã© %s\nSua idade Ã© %d\nE seu nÃªnero Ã© masculino\n\n", nome,idade);
 }
 else {
-    printf("\n\nSeu nome é %s\nSua idade é %d\nE seu gênero é feminino\n\n", nome,idade);
+    printf("\n\nSeu nome Ã© %s\nSua idade Ã© %d\nE seu gÃªnero Ã© feminino\n\n", nome,idade);
 }
 
 return 0;
