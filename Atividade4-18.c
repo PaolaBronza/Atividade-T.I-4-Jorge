@@ -10,17 +10,17 @@ int main(void){
 		
 	printf("Valor da compra: R$");
 	scanf("%d",&valor);
-	printf("1-dÈbito\n2-crÈdito\n3-cheque\n");
+	printf("1-d√©bito\n2-cr√©dito\n3-cheque\n");
 	printf("Insira a forma de pagamento:");
 	scanf("%d",&pag);
 	
 	if(pag=1){
 		valor1=valor-(valor*0.05);
-		printf("Desconto v·lido: 5%c",37);
+		printf("Desconto v√°lido: 5%c",37);
 		printf("\nValor inicial: %d\nValor total: R$%d",valor,valor1);
 	}
 	else if(pag=2){
-		printf("Desconto inv·lido");
+		printf("Desconto inv√°lido");
 		printf("\nValor total: R$%d",valor);
 	}
 	else if(pag=3){
