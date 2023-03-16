@@ -20,16 +20,16 @@ int main(void){
 	scanf("%d",&nota3);
 		printf("Nota 4: ");
 		scanf("%d",&nota4);
-	printf("Média para aprovação: 70");
+	printf("MÃ©dia para aprovaÃ§Ã£o: 70");
 	media=(nota1+nota2+nota3+nota4)/4;
 	
 	if(media<=69){
-		printf("\nAluno: %sMédia anual: %d\nReprovado",nome,media);
+		printf("\nAluno: %sMÃ©dia anual: %d\nReprovado",nome,media);
 	recuperacao=70-media;
-			printf("\nNecessita-se de %d pontos para aprovação",recuperacao);	
+			printf("\nNecessita-se de %d pontos para aprovaÃ§Ã£o",recuperacao);	
 	}
 	else if(media>=70){
-		printf("\nAluno: %sMédia anual: %d\nAprovado",nome,media);
+		printf("\nAluno: %sMÃ©dia anual: %d\nAprovado",nome,media);
 	}
 	return 0;
 }
