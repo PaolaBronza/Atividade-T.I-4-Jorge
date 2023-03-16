@@ -20,10 +20,10 @@ int main(void){
  	scanf("%d", &idade2);
  	
  	if(idade1 > idade2){
-		printf("A pessoa mais velha é %s com %d anos.", nome1, idade1);
+		printf("A pessoa mais velha Ã© %s com %d anos.", nome1, idade1);
  	}
 	else if(idade2 > idade1){
-		printf("A pessoa mais velha é %s com %d anos.", nome2, idade2);	
+		printf("A pessoa mais velha Ã© %s com %d anos.", nome2, idade2);	
 	}
 	return 0;
 }
