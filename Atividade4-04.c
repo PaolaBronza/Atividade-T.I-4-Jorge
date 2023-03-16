@@ -9,6 +9,6 @@ int main(void){
 	printf("Insira o valor de raio: ");
 	scanf("%f",&raio);
 	area=3.14*pow(raio,2);
-	printf("Área da circunferência: %f",area);
+	printf("Ãrea da circunferÄ™ncia: %f",area);
 	return 0;
 }
