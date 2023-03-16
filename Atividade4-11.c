@@ -10,16 +10,16 @@ int main(void) {
 int a,b;
 setlocale(LC_ALL,"portuguese");
 
-printf("Digite o número de peças produzidas: ");
+printf("Digite o nÃºmero de peÃ§as produzidas: ");
 scanf("%d", &a);
-printf("Digite o número de peças defeituosas: ");
+printf("Digite o nÃºmero de peÃ§as defeituosas: ");
 scanf("%d", &b);
 
 if(b >= (a / 10)){
-        printf("\n\nA maquina precisa de manutenção");
+        printf("\n\nA maquina precisa de manutenÃ§Ã£o");
     }
     else{
-    printf("\nA maquina não precisa de manutenção");
+    printf("\nA maquina nÃ£o precisa de manutenÃ§Ã£o");
     }
 
     return 0;
