@@ -17,7 +17,7 @@ int main(void){
 	printf("Categoria Juvenil");
 	}
 	else if(idade>=18){
-	printf("Categoria Sênior");
+	printf("Categoria SÃªnior");
 	}
 	return 0;
 }
