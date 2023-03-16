@@ -7,9 +7,9 @@ int main(void){
 	setlocale(LC_ALL,"portuguese");
 	int num,num2;
 
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	scanf("%d",&num);
-	printf("Número digitado: %d",num);
+	printf("NÃºmero digitado: %d",num);
 	
 	if(num>20&&num%2==0){
 		num2=num/2;
