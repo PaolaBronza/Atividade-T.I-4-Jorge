@@ -7,11 +7,11 @@ int main(void){
 	setlocale(LC_ALL,"portuguese");
      int um, dois, tres;
 
-    printf("insira um número: ");
+    printf("insira um nÃºmero: ");
     scanf("%d", &um);
-    printf("insira outro número: ");
+    printf("insira outro nÃºmero: ");
     scanf("%d",&dois);
-    printf("insira outro número: ");
+    printf("insira outro nÃºmero: ");
     scanf("%d",&tres);
 
     if(um > dois && um > tres && dois > tres){
