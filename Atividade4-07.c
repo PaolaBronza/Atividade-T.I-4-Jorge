@@ -12,11 +12,11 @@ int main(void){
 	
 	if(folha<100){
 		preco=folha*0.25;
-		printf("\nFolhas impressas: %d\nPreÁo da impress„o: R$0,25\nTotal: R$%d",folha,preco);
+		printf("\nFolhas impressas: %d\nPre√ßo da impress√£o: R$0,25\nTotal: R$%d",folha,preco);
 	}
 	if(folha>=100){
 		preco=folha*0.20;
-		printf("\nFolhas impressas: %d\nPreÁo da impress„o: R$0,20\nTotal: R$%d",folha,preco);
+		printf("\nFolhas impressas: %d\nPre√ßo da impress√£o: R$0,20\nTotal: R$%d",folha,preco);
 	}
 	return 0;
 }
