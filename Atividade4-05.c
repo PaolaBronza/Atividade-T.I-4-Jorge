@@ -13,6 +13,6 @@ int main(void){
 	printf("Digite o valor: ");
 	scanf("%f",&VALOR);
 	PRESTACAO=VALOR+(VALOR*(TAXA/100)*TEMPO);
-	printf("Prestação: %f",PRESTACAO);
+	printf("PrestaÃ§Äƒo: %f",PRESTACAO);
 	return 0;
 }
