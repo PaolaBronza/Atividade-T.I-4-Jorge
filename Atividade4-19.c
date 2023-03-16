@@ -8,15 +8,15 @@ int main(void){
 	setlocale(LC_ALL,"portuguese");
 	float preco1,parcela,preco2;
 	
-	printf("Insira o preço total da compra: R$");
+	printf("Insira o preÃ§o total da compra: R$");
 	scanf("%f",&preco1);
 	
 	if(preco1>=250){
 		preco2=preco1/5;
-		printf("Parcela de 5x disponível.\nPreço por parcela: %.2f",preco2);
+		printf("Parcela de 5x disponÃ­vel.\nPreÃ§o por parcela: %.2f",preco2);
 	}
 	else if(preco1<250){
-		printf("Parcela indisponível.");
+		printf("Parcela indisponÃ­vel.");
 	}
 	return 0;
 }
