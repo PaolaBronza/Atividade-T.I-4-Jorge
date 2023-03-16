@@ -6,7 +6,7 @@ int main(void){
 	setlocale(LC_ALL,"portuguese");
 	int num;
 	
-	printf("Digite um número: ");
+	printf("Digite um nÃºmero: ");
 	scanf("%d",&num);
 	
 	if(num>=10){
