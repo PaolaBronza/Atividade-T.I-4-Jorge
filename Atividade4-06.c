@@ -15,7 +15,7 @@ scanf("%f", &Tf);
 
 Tc = (Tf - 32) / 9 * 5;
 
-printf("\nA temperatura em graus Celcius é %f", Tc);
+printf("\nA temperatura em graus Celcius Ã© %f", Tc);
 
 return 0;
 
