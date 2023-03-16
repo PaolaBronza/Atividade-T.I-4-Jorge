@@ -9,21 +9,21 @@ int main(void) {
 int a,b,c;
 setlocale(LC_ALL,"portuguese");
 
-printf("Digite um número: ");
+printf("Digite um nÃºmero: ");
 scanf("%d", &a);
-printf("Digite um segundo número: ");
+printf("Digite um segundo nÃºmero: ");
 scanf("%d", &b);
-printf("Digite um terceiro número: ");
+printf("Digite um terceiro nÃºmero: ");
 scanf("%d", &c);
 
 if(a == b && b == c){
-    printf("\n%d, %d e %d são medidas de um triângulo equilátero\n", a,b,c);
+    printf("\n%d, %d e %d sÃ£o medidas de um triÃ¢ngulo equilÃ¡tero\n", a,b,c);
 }
 else if(a == b || b == c || c == a){
-    printf("\n%d, %d e %d são medidas de um triângulo isósceles\n", a,b,c);
+    printf("\n%d, %d e %d sÃ£o medidas de um triÃ¢ngulo isÃ³sceles\n", a,b,c);
 }
 else if(a > b && b > c || a > c && c > b || b > a && a > c || b > c && c > a || c > b && b > a || c > a && a > b){
-    printf("\n%d, %d e %d são medidas de um triângulo escaleno\n", a,b,c);
+    printf("\n%d, %d e %d sÃ£o medidas de um triÃ¢ngulo escaleno\n",Â a,b,c);
 }
 return 0;
 }
