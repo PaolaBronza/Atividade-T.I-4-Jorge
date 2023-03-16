@@ -8,7 +8,7 @@ main(void){
 
     int tabu, loc, loc2,  resu;
 
-    printf("Insira um número: ");
+    printf("Insira um nÃºmero: ");
     scanf("%d", &tabu);
 
     loc2=1;
