@@ -9,7 +9,7 @@ int main(void){
     int x1,x2,x3,a,b,c,resu,resu2,resu3,x,delta;
 
 
-    printf("aX≤+bx-c=0\n\n");
+    printf("aX¬≤+bx-c=0\n\n");
     printf("Digite o valor de a: ");
     scanf("%d", &a);
     printf("Digite o valor de b: ");
@@ -27,18 +27,18 @@ int main(void){
     delta = (pow(b,2)-4*a*c);
 
     if(delta>0){
-        printf("\ndelta È %d e %d È maior que 0\n",delta,delta);
-        printf("haver· duas raizes iguais e distintas");
-        printf("\n\nUm dos valores do calculo bhaskara È: %d\nE outro È: %d\n", resu2, resu3);
+        printf("\ndelta √© %d e %d √© maior que 0\n",delta,delta);
+        printf("haver√° duas raizes iguais e distintas");
+        printf("\n\nUm dos valores do calculo bhaskara √©: %d\nE outro √©: %d\n", resu2, resu3);
 
     }else if(delta<0){
-        printf("\n\ndelta È %d\nE %d È menor que 0\n\n", delta, delta);
-        printf("n„o haver· raizes reais");
-        printf("\n\nUm dos valores do calculo bhaskara È: %d\nE outro È: %d\n", resu2, resu3);
+        printf("\n\ndelta √© %d\nE %d √© menor que 0\n\n", delta, delta);
+        printf("n√£o haver√° raizes reais");
+        printf("\n\nUm dos valores do calculo bhaskara √©: %d\nE outro √©: %d\n", resu2, resu3);
     }else if(delta==0){
-        printf("\n\ndelta È %d e %d È igual a 0\n\n", delta, delta);
-        printf("existem duas raÌzes iguais e distintas");
-        printf("\n\nUm dos valores do calculo bhaskara È: %d\nE outro È: %d\n", resu2, resu3);
+        printf("\n\ndelta √© %d e %d √© igual a 0\n\n", delta, delta);
+        printf("existem duas ra√≠zes iguais e distintas");
+        printf("\n\nUm dos valores do calculo bhaskara √©: %d\nE outro √©: %d\n", resu2, resu3);
     }
     return 0;
 }
